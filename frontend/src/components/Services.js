@@ -47,11 +47,11 @@ export default function Services() {
     <section
       id="services"
       data-testid="services-section"
-      className="relative py-24 lg:py-32 bg-white overflow-hidden"
+      className="relative py-16 lg:py-24 bg-white overflow-hidden"
     >
       <div className="water-ripple opacity-[0.04]" />
       <div className="relative max-w-7xl mx-auto px-5 lg:px-8">
-        <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 mb-16 lg:mb-20">
+        <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-8 mb-10 lg:mb-14">
           <div className="max-w-2xl">
             <span className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.25em] text-brand-aqua mb-4">
               <span className="w-8 h-px bg-brand-aqua" /> Nos services
