@@ -1,0 +1,138 @@
+{
+  "project_info": {
+    "name": "Rêv'dô",
+    "description": "Premium pool maintenance and repair company in La Réunion. Luxury minimalist design, fluid, reliable, and high-end.",
+    "app_type": "marketing_site",
+    "domain": "Luxury Home Services / Pool Maintenance",
+    "language": "fr"
+  },
+  "theme_and_archetype": {
+    "theme": "light",
+    "archetype": "5 (Jewel & Luxury) mixed with Warm Minimalism",
+    "reasoning": "Pool maintenance requires trust and serenity (Light theme foundation), while the 'luxe minimaliste' request dictates deep, jewel-tone accents (Bleu profond + Bleu aqua) to signify premium, high-end service. Warm minimalism ensures it feels human and inviting, not clinical."
+  },
+  "colors": {
+    "primary": "#0B2545",
+    "primary_description": "Bleu profond (Deep Blue) - Used for primary headings, deep backgrounds, and high-contrast elements.",
+    "secondary": "#00A8E8",
+    "secondary_description": "Bleu aqua (Aqua Blue) - Used for CTA buttons, interactive hover states, and energetic accents (e.g., Emergency banner).",
+    "background": "#FFFFFF",
+    "background_alt": "#F8F9FA",
+    "background_alt_description": "Cream/Off-white (matches logo background) - Used for alternating sections and bento cards.",
+    "text_main": "#1F2937",
+    "text_muted": "#4B5563",
+    "border": "#E5E7EB",
+    "accent": "#D4AF37",
+    "accent_description": "Subtle gold/champagne for premium touches if needed (stars, small dividers)."
+  },
+  "typography": {
+    "headings_font": "Outfit",
+    "body_font": "Manrope",
+    "hierarchy": {
+      "h1": "text-4xl sm:text-5xl lg:text-6xl tracking-tight font-light",
+      "h2": "text-2xl sm:text-3xl lg:text-4xl tracking-tight font-light",
+      "h3": "text-xl sm:text-2xl font-medium",
+      "body": "text-base leading-relaxed font-normal",
+      "small": "text-sm uppercase tracking-widest font-medium"
+    },
+    "instruction": "Do not center headings by default. Left-align for editorial luxury feel. Ensure 'tracking-tight' for headings to maintain a modern, premium aesthetic."
+  },
+  "layout_and_spacing": {
+    "spacing_scale": "Generous spacing. Use py-24 or py-32 for main sections. Gap-8 or gap-12 for grids.",
+    "grid_strategy": "Use bento-style asymmetrical grids or pure clean CSS grids. The 11 services should be displayed in a dense but clean grid (e.g., grid-cols-1 md:grid-cols-2 lg:grid-cols-3 or 4) with 1px borders and subtle hover lifts.",
+    "container": "Max-w-7xl mx-auto px-6 lg:px-8",
+    "surfaces": {
+      "header": "Crystal Glass (backdrop-blur-xl bg-white/80) with 1px bottom border border-white/20.",
+      "cards": "Flat background (bg-white or bg-[#F8F9FA]), 1px subtle border (border-gray-200), no heavy drop shadows. On hover: -translate-y-1 and shadow-lg.",
+      "hero_overlay": "Gradient overlay over the hero image (bg-gradient-to-r from-[#0B2545]/90 via-[#0B2545]/50 to-transparent) to ensure text contrast while maintaining the luxury image visibility."
+    }
+  },
+  "motion_and_interaction": {
+    "scroll": "Smooth scrolling mandatory (lenis or smooth scroll-behavior).",
+    "hover": "All interactive elements must have visible hover states (e.g., hover:bg-[#008CC2] for Aqua buttons).",
+    "animations": "Subtle entrance animations using framer-motion (fade in, slide up). Staggered grid item reveals.",
+    "background_effect": "Subtle water/wave effect in background: implement a slowly translating/scaling absolute background image (the rippling water unsplash image) with heavy backdrop blur and low opacity to simulate water movement without distracting."
+  },
+  "components_instructions": {
+    "icons": "Use lucide-react. Stroke width 1.5 for a premium, lightweight look.",
+    "buttons": "Primary CTA: bg-[#00A8E8] text-white rounded-none or rounded-sm. Secondary: border border-[#0B2545] text-[#0B2545] bg-transparent. Hover states must increase contrast.",
+    "forms": "Use Shadcn Form components. Inputs should have minimal design (border-b only, or very light 1px full border with rounded-sm bg-white).",
+    "floating_whatsapp": "Fixed bottom-right corner. z-50. bg-green-500 rounded-full p-4 shadow-xl hover:scale-110 transition-transform."
+  },
+  "sections_content": {
+    "hero": {
+      "title": "Rêv'dô – L'excellence de la piscine à La Réunion",
+      "subtitle": "Entretien sur mesure • Dépannage rapide • Eau cristalline garantie",
+      "description": "Chaque piscine mérite une attention d'exception.",
+      "ctas": ["Appeler", "WhatsApp", "Devis"]
+    },
+    "emergency_banner": {
+      "text": "URGENCE piscine verte",
+      "placement": "Top of the page or directly under hero. High visibility (e.g., bg-[#00A8E8] text-white py-3 text-center)."
+    },
+    "services": {
+      "title": "Nos Services",
+      "items": [
+        "Entretien sur mesure", "Dépannage piscine", "Dépannage électrique", "Dépannage pompe", 
+        "Installation local technique", "Installation électrique", "Traitement de l'eau", 
+        "Entretien mensuel", "Entretien vacances", "Changement sable filtre", "Changement horloge"
+      ]
+    },
+    "service_area": {
+      "title": "Zone d'Intervention",
+      "description": "Sud, Nord, Ouest de La Réunion"
+    },
+    "why_us": {
+      "title": "Pourquoi Rêv'dô",
+      "items": ["5 points premium (to be generated/structured by agent)"]
+    },
+    "gallery": {
+      "title": "Galerie & Réalisations",
+      "layout": "Asymmetrical Tetris grid showing before/after, tech room, and luxury finishes."
+    },
+    "contact": {
+      "title": "Contact",
+      "form_fields": ["Nom", "Ville", "Type de problème"],
+      "info": ["Tel: +262 692 61 66 57", "Email: revedo@orange.fr"]
+    },
+    "brand_phrases": [
+      "L'exigence au service de votre piscine",
+      "Une eau parfaite, sans compromis",
+      "Chaque piscine mérite l'excellence",
+      "Intervention rapide et soignée"
+    ]
+  },
+  "media": {
+    "logos": [
+      {
+        "url": "https://customer-assets.emergentagent.com/job_72db6157-de11-4cad-b516-83fb9e963f41/artifacts/10cuek15_IMG_4647.jpeg",
+        "description": "Rêv'dô Logo (Bleu profond & bleu aqua sur fond crème). Use in navbar and footer."
+      }
+    ],
+    "images": [
+      {
+        "url": "https://customer-assets.emergentagent.com/job_72db6157-de11-4cad-b516-83fb9e963f41/artifacts/ihbmm94v_IMG_4646.jpeg",
+        "description": "Luxury pool La Réunion. MANDATORY: Use as Hero section background with heavy left-to-right deep blue gradient overlay.",
+        "category": "hero"
+      },
+      {
+        "url": "https://customer-assets.emergentagent.com/job_72db6157-de11-4cad-b516-83fb9e963f41/artifacts/su96icm8_IMG_4648.jpeg",
+        "description": "Avant/après piscine verte vers cristalline. Use in Gallery section.",
+        "category": "gallery"
+      },
+      {
+        "url": "https://customer-assets.emergentagent.com/job_72db6157-de11-4cad-b516-83fb9e963f41/artifacts/yq5f4p36_IMG_4645.jpeg",
+        "description": "Local technique. Use in Gallery or Services section.",
+        "category": "gallery"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1756363831213-e4e4b40063ef?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1ODh8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBzd2ltbWluZyUyMHBvb2wlMjBjbGVhciUyMHdhdGVyfGVufDB8fHx8MTc3NzYxNjQzN3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Rippling blue water with sunlight reflections. Use for the subtle water/wave background effect (with low opacity and blur) behind certain sections like Contact or Services.",
+        "category": "background_texture"
+      }
+    ]
+  },
+  "testing": {
+    "rules": "All interactive and key informational elements MUST include a data-testid attribute. Format: kebab-case, role-based."
+  }
+}
