@@ -55,6 +55,27 @@ export default function ServiceArea() {
             ))}
           </div>
         </div>
+
+        {/* SEO-friendly cities list */}
+        <div className="mt-16 pt-10 border-t border-white/10">
+          <div className="text-xs uppercase tracking-[0.25em] text-brand-aqua mb-5">
+            Villes desservies
+          </div>
+          <p className="text-sm text-white/70 leading-relaxed max-w-4xl">
+            Pisciniste de confiance pour <span className="text-white">Saint-Denis</span>,{" "}
+            <span className="text-white">Saint-Pierre</span>,{" "}
+            <span className="text-white">Saint-Paul</span>,{" "}
+            <span className="text-white">Saint-Gilles-les-Bains</span>,{" "}
+            <span className="text-white">Le Tampon</span>,{" "}
+            <span className="text-white">Saint-Leu</span>,{" "}
+            <span className="text-white">Saint-Louis</span>,{" "}
+            <span className="text-white">Saint-André</span>,{" "}
+            <span className="text-white">Saint-Benoît</span>,{" "}
+            <span className="text-white">Le Port</span>,{" "}
+            <span className="text-white">La Possession</span> et l'ensemble de l'île de La Réunion
+            — entretien, dépannage et installation piscine premium.
+          </p>
+        </div>
       </div>
     </section>
   );

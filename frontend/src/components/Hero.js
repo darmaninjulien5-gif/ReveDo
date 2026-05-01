@@ -23,6 +23,11 @@ export default function Hero() {
 
       {/* Content */}
       <div className="relative z-10 max-w-7xl mx-auto px-5 lg:px-8 pt-40 pb-24 lg:pt-52 lg:pb-32 min-h-[100svh] flex flex-col justify-center">
+        {/* SEO H1 (hidden visually, read by crawlers & screen readers) */}
+        <h1 className="sr-only">
+          Rêv'dô — Pisciniste premium à La Réunion : entretien, dépannage et installation piscine à Saint-Denis, Saint-Pierre, Saint-Paul, Saint-Gilles, Le Tampon et dans toute l'île.
+        </h1>
+
         <div className="max-w-3xl">
           <span className="inline-flex items-center gap-2 text-xs uppercase tracking-[0.25em] text-brand-aqua/90 mb-6">
             <span className="w-8 h-px bg-brand-aqua" /> Piscine • La Réunion
@@ -31,6 +36,7 @@ export default function Hero() {
           <h1
             data-testid="hero-title"
             className="font-heading text-white text-4xl sm:text-5xl lg:text-7xl font-light leading-[1.05] tracking-tight"
+            aria-hidden="true"
           >
             L'excellence
             <br />
