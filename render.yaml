@@ -1,0 +1,20 @@
+services:
+  - type: web
+    name: revedo-backend
+    runtime: python
+    region: frankfurt
+    plan: free
+    rootDir: backend
+    buildCommand: pip install --upgrade pip && pip install -r requirements.txt
+    startCommand: uvicorn server:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: MONGO_URL
+        sync: false   # set in Render dashboard (MongoDB Atlas connection string)
+      - key: DB_NAME
+        value: revedo
+      - key: CORS_ORIGINS
+        sync: false   # set in Render dashboard (e.g. https://revedo.re,https://www.revedo.re)
